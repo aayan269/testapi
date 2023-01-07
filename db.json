@@ -1,24 +1,5 @@
 {
-  "cars": [
-    {
-      "id": 1,
-      "brand": "Tata",
-      "year": 2019,
-			"type":"Manual",
-      "kms": 10000,
-      "Description": "Tata Altroz with all original documents",
-      "Price": 500000
-    },
-    {
-      "id": 2,
-      "brand": "Tata",
-			"type":"AMT",
-      "year": 2017,
-      "kms": 8000,
-      "Description": "Tata Nexon with all original documents",
-      "Price": 800000
-    }
-  ],
+ 
 "wishlisted_cars": [
     {
       "id": 1,
@@ -48,6 +29,45 @@
       "kms": 8000,
       "Description": "Tata Nexon with all original documents",
       "Price": 800000
+    }
+  ],
+  "register":[
+    {
+      "id":1,
+      "email":"pappu@gmail.com",
+      "username":"pappu",
+      "password":12345
+    },
+    {
+      "id":2,
+      "email":"bittu@gmail.com",
+      "username":"biitu",
+      "password":54321
+    }
+  ],
+  "login":[
+    {
+      "id":1,
+      "username":"pappu",
+      "password":12345
+    },
+    {
+      "id":2,
+      "username":"biitu",
+      "password":54321
+    }
+  ],
+  "task":[
+    {
+      "id":1,
+      "userid":1,
+      "task":"learn react" 
+      
+    },
+    {
+      "id":2,
+      "userid":2,
+      "task":"learn java" 
     }
   ]
 }
